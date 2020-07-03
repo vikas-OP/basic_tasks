@@ -1,0 +1,89 @@
+1. To make it work the string should be enclosed like
+"Java" or 'Java' but not "Java'.
+2.The quotations are not proper, they have to be changed.
+3. No matter if it's written in single line or multiple 
+lines for every alert statement, one alert box is opened.
+4.let fname = "Guvi";
+let lname = "geek"
+let admin = fname+ " " + lname;
+alert( admin ); // "Guvi geek"
+5.let fname = "Guvi";
+let lname = "geek"
+let name = fname+ " " + lname;
+alert( 'hello ' + name);
+6.let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(+a +  +b);
+7.The code is blasted as '2' > '12' for type string because
+the first character is 2 and first character of second 
+string is 1. To get the output as diffused we have to 
+change var a to 2 > 12.
+8.To get success in console, we have to make a = +a; and
+and give input 0 in the prompt.
+9.We can do two things. we can either convert value
+into integer or replace === with ==.
+10.let login = 'Employee';
+let message = (login == 'Employee') ? 'Welcome' :
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+console.log(message);
+11. let message;
+if (null || 2 || undefined )
+{
+ let message = "welcome boss";
+console.log(message);
+}
+else
+{
+ let message = "Go away";
+}
+12.let message;
+let lock = 0;
+//Dont change any code below this 
+if (null || lock || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message);
+13.let message;
+let lock = 0;
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message);
+14.let i = 3;
+while (i) {
+  console.log( i-- );
+}
+15.for(let i = 1; i <= 10; i++){
+	console.log(i);
+}
+16.for (let num = 2; num <= 20; num += 2) {
+  console.log(num)
+}
+17.let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log('Wrapped ' + gifts[i] + ' and added a bow!');
+}
+18.let countdown = 100;
+while (countdown > 0) {
+  countdown--;
+  if(countdown == 0)
+  {
+   countdown = 100;
+  }
+}
+19.hi will be printed because string with any characters
+is true and integer 0 is false.
+20.
